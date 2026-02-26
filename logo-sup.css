@@ -1,0 +1,35 @@
+.apple-name {
+    height: 3rem;
+    width: 9.56rem;
+    background-color: #2E2C30;
+    padding: 12px 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+.inter {
+
+    width: 113px;
+    height: 24px;
+    display: flex;
+    object-fit: contain;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+     
+}
+
+
+
+& span {
+font-family: "Familjen Grotesk", sans-serif;
+font-size: 1rem;
+font-weight: 700;
+line-height: 1.5rem;
+color: #9282FA;
+width: 100%;
+
+
+}
+}
+

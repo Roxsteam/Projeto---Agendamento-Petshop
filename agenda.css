@@ -1,0 +1,41 @@
+
+.agenda {
+width: 54,4375rem;
+height: 48rem;
+border: 2px solid blue;
+margin-inline: auto;
+background-color: #14151D;
+display: flex;
+flex-direction: column;
+}
+
+
+.agenda .header-primary {
+width: 44,4375rem;
+height: 3.75rem;
+border: 2px solid salmon;
+margin: 62px 80px 32px 80px;
+}
+
+
+
+.title {
+    display: flex;
+    flex-direction: column;
+
+    & h1{
+    font: var(--inter--tight);
+    color: var(--content-primary);
+    height: 2rem;
+    width: 100%;
+    margin-bottom: 4px;
+   }
+   & p {
+   font: var(--inter-pmedium);
+   color: var(--content-secondary);
+   height: 1.5rem;
+    width: 100%;
+   
+   }
+
+}

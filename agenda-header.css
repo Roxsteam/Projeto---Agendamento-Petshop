@@ -21,6 +21,7 @@ margin: 62px 80px 32px 80px;
 
 
 .title {
+    position: relative;
     display: flex;
     flex-direction: column;
 
@@ -42,3 +43,39 @@ margin: 62px 80px 32px 80px;
 }
 
 
+.calender {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+gap: 8px;
+position: absolute;
+right: 0px;
+top: 6px;
+width: 172px;
+height: 48px;
+color: var(--content-secondary);
+border: 1px solid var(--border-primary);
+border-radius: 8px;
+background-color: var(--background-primary);
+
+& input { 
+    background-color: inherit;
+    color: var(--content-secondary);
+    border: none;
+    width: 120px;
+    height: 24px;
+    font-family: 'Inter', 'sans-serif';
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+
+& .icon-arrow {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 0;
+   
+}
+}

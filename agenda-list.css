@@ -9,7 +9,7 @@ margin-inline: 80px;
 margin-bottom: 62px;
 }
 
-.morning {
+.turno {
 
     width: 100%;
     height: 8.5rem;
@@ -24,7 +24,7 @@ height: 3rem;
 display: flex;
 flex-direction: row;
 align-items: center;
-margin-bottom: 2px;
+margin-bottom: 0.5px;
 background-color: var(--background-tertiary);
 
  & img {
@@ -36,7 +36,7 @@ background-color: var(--background-tertiary);
 }
 
 
-.turn p {
+.turno p {
     width: 35.25rem;
     height: 1.5rem;
     margin-left: 12px;
@@ -60,6 +60,7 @@ background-color: var(--background-tertiary);
 .clients {
 width: 100%;
 height: 5.5rem;
+padding-top: 20px;
 
 margin-bottom: 0.75rem;
 background-color: var(--background-tertiary);
@@ -69,6 +70,7 @@ background-color: var(--background-tertiary);
 width: 41.9375rem;
 height: 3rem;
 margin: 20px;
+margin-top: 0;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -136,3 +138,7 @@ justify-content: center;
     color: var(--content-tertiary);
     
 }
+
+
+
+

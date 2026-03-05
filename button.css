@@ -1,0 +1,14 @@
+button {
+
+
+    width: 218px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: var(--content-brand);
+    font: var(--inter-labelarge);
+    color: #050505;
+    position: absolute;
+    right: -200px;
+    bottom: 25px;
+   
+}
